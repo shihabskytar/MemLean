@@ -1,0 +1,7 @@
+[workspace]
+members = ["crates/core", "crates/win", "crates/cli"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "Apache-2.0"
